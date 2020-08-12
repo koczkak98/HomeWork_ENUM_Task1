@@ -20,6 +20,8 @@ public class Main {
 
         Ford myBlackFord = new Ford(Colors.BLACK);
 
+        Ford myYellowFord = new Ford(Colors.YELLOW);
+
 
         System.out.println("Value of my " + myBlueFord.getColor()
                 + " Ford: " + myBlueFord.valueOfCar());
@@ -32,6 +34,9 @@ public class Main {
 
         System.out.println("Value of my " + myBlackFord.getColor()
                 + " Ford: " + myBlackFord.valueOfCar());
+
+        System.out.println("Value of my " + myYellowFord.getColor()
+                + " Ford: " + myYellowFord.valueOfCar());
     }
 
 }
